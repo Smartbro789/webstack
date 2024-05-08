@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './index.scss';
 import CustomerList from './components/CustomerList';
 import customers from './customers.json';
 import NavbarComponent from './components/Navbar';

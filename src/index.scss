@@ -1,0 +1,87 @@
+@import "~bootstrap/scss/bootstrap";
+
+$primary: #007bff;
+$secondary: #6c757d;
+$light: #f8f9fa;
+
+body {
+  background-color: $light;
+}
+
+.container {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+header {
+  background-color: $primary;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+.customer-form {
+  margin-bottom: 2rem;
+
+  input,
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  input {
+    width: 100%;
+    padding: 0.5rem;
+  }
+
+  button {
+    background-color: $secondary;
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    cursor: pointer;
+  }
+}
+
+.customer-list {
+  margin-bottom: 2rem;
+
+  th,
+  td {
+    text-align: left;
+    padding: 0.5rem;
+    border-bottom: 1px solid $light;
+  }
+
+  th {
+    background-color: $secondary;
+    color: white;
+  }
+}
+
+.customer-details {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border: 1px solid $light;
+  border-radius: 0.25rem;
+
+  h2 {
+    margin-top: 0;
+  }
+}
+
+footer {
+  background-color: $light;
+  color: $secondary;
+  padding: 1rem;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
